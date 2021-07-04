@@ -1,0 +1,51 @@
+#nav {
+    width: 100%;
+    background: #000;
+    position: sticky;
+}
+
+  /* (B) HORIZONTAL MENU ITEMS */
+.breadcrumb {
+    display: flex;
+}
+.breadcrumb a {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.breadcrumb a:hover {
+    background: #401408;
+}
+
+  /* (C) HIDE HAMBURGER */
+#nav label, #hamburger {
+    display: none;
+}
+@media screen and (max-width: 640px){
+    /* (A) BREAK INTO VERTICAL MENU */
+    .breadcrumb a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #333;
+    }
+    #nav label {
+        display: inline-block;
+        color: white;
+        background: #a02620;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    /* (C) TOGGLE SHOW/HIDE MENU */
+    .breadcrumb {
+        display: none;
+    }
+    #nav input:checked ~ .breadcrumb {
+        display: block;
+    }
+}

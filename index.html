@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="/company-webpage/resources/css/style.css"/>
     <title>Cafe Chic</title>
+    <link rel="shortcut icon" type="image/jpg" href="/company-webpage/resources/images/eiffel-tower.png"/>
 </head>
 <body>
-    <header class="container">
+    <nav id="nav">
+        <label for="hamburger">&#9776</label>
+        <input type="checkbox" id="hamburger">
+        <div class="breadcrumb">
+            <a href="#about">About</a>
+            <a href="#featured">As Seen On The 'Gram!</a>
+            <a href="#team">Meet our Team</a>
+            <a href="#connect">Connect With Us</a>
+        </div>
+    </nav>
+    <main>
         <div class="image-container">
             <h1>Cafe Chic</h1>
             <h4>Bonjour! Welcome to the authenic parisian cafe</h4>
         </div>
-    </header>
-    <main>
-        <ul class="breadcrumb">
-            <li><a href="#about">About</a></li>
-            <li><a href="#featured">As Seen On The 'Gram!</a></li>
-            <li><a href="#founder">Meet our Founder</a></li>
-            <li><a href="#">Connect With Us</a></li>
-        </ul>
         <div id="about">
             <div class="about-text">
                 <h2>About Us</h2>
@@ -45,14 +50,63 @@
                 <img class="feature-img" src="/company-webpage/resources/images/that-s-her-business-ZTuTTcsproc-unsplash.jpg">
             </div>
         </div>
-        <div id="founder">
+        <div id="team">
+            <div class="team-container">
+                <h2>Meet Our Team</h2>
+                <div class="team" id="team-1">
+                    <div class="description">
+                        <h3>Desiree Monet-Dupont</h3>
+                        <h4>Founder, CEO</h4>
+                    </div>
+                </div>
+                <div class="team" id="team-2">
+                    <div class="description">
+                        <h3>Drake Dupont</h3>
+                        <h4>Co-Founder</h4>
+                    </div>
+                </div>
+                <div class="team" id="team-3">
+                    <div class="description">
+                        <h3>Lucii Rodriguez</h3>
+                        <h4>Head Baker/Chef</h4>
+                    </div>
+                </div>
+            </div>
 
         </div>
         <div id="connect">
-
+            <h2>Connect With Us!</h2>
+            <div class="contact-page">
+                <h3>Join our mailing list and recieve special coupons!</h3>
+                <form action="" method="get" class="form">
+                    <div class="form">
+                        <label for="name">Your name: </label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="form">
+                        <label for="email">Your email: </label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="form">
+                        <label for="birthday">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday" value="2008-07-22" min="1950-01-01" max="2021-12-31">
+                    </div>
+                    <div class="form">
+                        <input type="submit" value="Subscribe!">
+                    </div>
+                </form>
+            </div>
+            <div >
+                <div class="social-links">
+                    <a href="http://facebook.com/"><img class="link" src="/company-webpage/resources/images/facebook.png"></a>
+                    <a href="http://instagram.com/"><img class="link" src="/company-webpage/resources/images/instagram-logo.png"></a>
+                    <a href="http://twitter.com/"><img class="link" src="/company-webpage/resources/images/twitter-logo.png"></a>
+                    </div>
+            </div>
         </div>
     </main>
     <footer id="footer">
+        <p>&copy; Cafe Chic Inc. | Photos from <a href="https://www.unsplash.com">unsplash.com</a></p>
 
     </footer>
 </body>
