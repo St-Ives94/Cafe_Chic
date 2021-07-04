@@ -1,9 +1,23 @@
-#nav {
-    width: 100%;
-    background: #000;
-    position: sticky;
+/* #F9DCE1
+ #1D1F20 */
+
+body{
+    background-color: #92979B;
+    color: #36393A;
+    Font-Family: 'Fauna One', Serif;
+    Font-Size: 14px;
+}
+h1 {
+    Font-Family: 'Cinzel', Cursive;
+    Font-Size: 44px;
 }
 
+/* Navagation Bar */
+#nav {
+    width: 100%;
+    background: #F9DCE1;
+    position: sticky;
+}
   /* (B) HORIZONTAL MENU ITEMS */
 .breadcrumb {
     display: flex;
@@ -12,14 +26,13 @@
     flex-grow: 1;
     flex-basis: 0;
     padding: 10px;
-    color: white;
+    color: #36393A;
     text-decoration: none;
     text-align: center;
 }
 .breadcrumb a:hover {
-    background: #401408;
+    background: #F297BE;
 }
-
   /* (C) HIDE HAMBURGER */
 #nav label, #hamburger {
     display: none;
@@ -35,7 +48,7 @@
     #nav label {
         display: inline-block;
         color: white;
-        background: #a02620;
+        background: #36393A;
         font-style: normal;
         font-size: 1.2em;
         padding: 10px;
