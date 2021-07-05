@@ -2,7 +2,7 @@
  #1D1F20 */
 
 body{
-    background-color: #92979B;
+    background-color: #f2f3f5;
     color: #36393A;
     Font-Family: 'Fauna One', Serif;
     Font-Size: 14px;
@@ -82,6 +82,7 @@ body{
     width: 100%;
     display: flex;
     height: 500px;
+    align-items: center;
 }
 .about-text {
     padding: 10px;
@@ -116,8 +117,36 @@ body{
     height: 480px;
     width: 330px;
 }
+#featured {
+    background-color: #a8a7ac;
+    padding: 10px;
+    line-height: 1.6;
+    margin: 0 15px;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding: 8px;
+    margin: 5px;
+}
+.feature-img {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
+.featured-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.featured-container h3 {
+    font-family: "Cinzel", serif;
+    text-align: center;
+}
 
-#featured, #team, #connect, #footer {
+#team, #connect, #footer {
     display: none;
 }
 @media screen and (max-width: 640px){
@@ -161,6 +190,9 @@ body{
     }
     .welcome h2 {
         display: none;
+    }
+    .about-picture{
+        display: none ;
     }
 }
 @media screen and (min-width: 1100px) {
