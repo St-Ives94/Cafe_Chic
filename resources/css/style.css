@@ -7,6 +7,9 @@ body{
     Font-Family: 'Fauna One', Serif;
     Font-Size: 14px;
 }
+#featured, #team, #connect, #footer, #about {
+    margin: 20px auto;
+}
 .image-container {
     background-image: url("/company-webpage/resources/images/ruben-ramirez-xhKG01FN2uk-unsplash.jpg");
     background-repeat: no-repeat;
@@ -23,24 +26,24 @@ body{
     Font-Size: 80px;
     margin-bottom: -1px;
     color: rgb(45, 45, 45);
+    text-shadow: 1px 1px 2px #5E9AA6;
 }
 .welcome {
     background-color: hsla(334, 78%, 77%, 60%);
     text-align: center;
     padding-bottom: 2px;
     width: 100%;
-
-    /* display: ; */
 }
 .welcome h2 {
     color:black;
+
 }
 
 /* Navagation Bar */
 #nav {
     width: 100%;
     background: #F9DCE1;
-    position: sticky;
+    position: fixed;
 }
   /* (B) HORIZONTAL MENU ITEMS */
 .breadcrumb {
@@ -48,8 +51,18 @@ body{
     align-items: center;
 }
 .breadcrumb h3 {
-
+    font-family: "Cinzel", serif;
+        color: #4F9AA8 ;
+        font-size: 2.2em;
+        background-color: #F9DCE1;
+        padding: 10px;
+        margin: 2px;
 }
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
 .breadcrumb a {
     flex-grow: 1;
     flex-basis: 0;
@@ -65,6 +78,28 @@ body{
 #nav label, #hamburger {
     display: none;
 }
+#about {
+    width: 100%;
+    display: flex;
+}
+.about-text {
+    padding: 10px;
+    line-height: 1.4;
+}
+.about-text h2 {
+    font-family: "Cinzel", serif;
+    /* text-align: center; */
+    font-size: 2.2em;
+}
+.about-picture img {
+    object-fit: scale-down;
+    height: 480px;
+    width: 330px;
+}
+
+#featured, #team, #connect, #footer {
+    display: none;
+}
 @media screen and (max-width: 640px){
     /* (A) BREAK INTO VERTICAL MENU */
     .breadcrumb a {
@@ -78,15 +113,33 @@ body{
         color: white;
         background: #36393A;
         font-style: normal;
-        font-size: 1.2em;
-        padding: 10px;
+        font-size: 2.2em;
+        padding: 10px 20px;
     }
-
+    label.logo-name {
+        font-family: "Cinzel", serif;
+        color: #4F9AA8 !important;
+        font-size: 1.2em;
+        background-color: #F9DCE1 !important;
+    }
+    .breadcrumb h3 {
+        display: none;
+    }
     /* (C) TOGGLE SHOW/HIDE MENU */
     .breadcrumb {
         display: none;
     }
     #nav input:checked ~ .breadcrumb {
         display: block;
+    }
+    .welcome h1 {
+        color:#4F9AA8;
+        text-shadow: 1px 1px 2px pink;
+    }
+    .welcome {
+        background-color: transparent;
+    }
+    .welcome h2 {
+        display: none;
     }
 }
