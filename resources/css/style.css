@@ -210,16 +210,51 @@ body{
     /* background-image: url("/resources/images/alex-mustaros-vowZFVPFzK0-unsplash.jpg"); */
     background-repeat: no-repeat;
 }
+.team-container {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.team {
+    display: flex;
+    flex-direction: column-reverse;
 
+}
+.description {
+    text-align: center;
+    line-height: 1.2;
+    background-color: #a65679e5;
+}
+.description h3 {
+    font-family: "Cinzel", serif;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.description h4 {
+    margin-top: 4px;
+}
 #team-1,
 #team-2,
 #team-3 {
     object-fit: scale-down;
-    height: 350px;
+    height: 450px;
     width: 350px;
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: flex-end;
+}
+#team-1 {
+    background-image: url("/resources/images/desiree_monet_team.jpg")
+}
+#team-2 {
+    background-image: url("/resources/images/drake2_dupont_team.jpg")
+}
+#team-3 {
+    background-image: url("/resources/images/lucii_rod_team.jpg")
 }
 
 #connect, #footer {
