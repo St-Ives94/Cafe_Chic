@@ -103,7 +103,7 @@ body{
 }
 .about-text h2,
 #featured h2,
-.team-container h2,
+#team h2,
 #connect h2  {
     font-family: "Cinzel", serif;
     font-size: 2.5em;
@@ -203,9 +203,26 @@ body{
 #ft-5 {
     justify-content: flex-start;
 }
+#team {
+    padding: 1px 15px 15px 15px;
+    line-height: 1.6;
+    background-size: contain;
+    /* background-image: url("/resources/images/alex-mustaros-vowZFVPFzK0-unsplash.jpg"); */
+    background-repeat: no-repeat;
+}
 
+#team-1,
+#team-2,
+#team-3 {
+    object-fit: scale-down;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+}
 
-#team, #connect, #footer {
+#connect, #footer {
     display: none;
 }
 @media screen and (max-width: 640px){
@@ -257,7 +274,7 @@ body{
 @media screen and (min-width: 1100px) {
     .about-text h2,
     #featured h2,
-    .team-container h2,
+    #team h2,
     #connect h2  {
         text-align: center;
     }
