@@ -11,7 +11,7 @@ body{
     margin: 20px auto;
 }
 .image-container {
-    background-image: url("/company-webpage/resources/images/ruben-ramirez-xhKG01FN2uk-unsplash.jpg");
+    background-image: url("/resources/images/ruben-ramirez-xhKG01FN2uk-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -167,22 +167,22 @@ body{
 }
 
 #ft-1 {
-    background-image: url("/company-webpage/resources/images/kelsey-curtis-SN5Np8BkC-w-unsplash.jpg");
+    background-image: url("/resources/images/kelsey-curtis-SN5Np8BkC-w-unsplash.jpg");
 }
 #ft-2 {
-    background-image: url("/company-webpage/resources/images/marcella-mumlek-lUvwQq5dJU4-unsplash.jpg");
+    background-image: url("/resources/images/marcella-mumlek-lUvwQq5dJU4-unsplash.jpg");
 }
 #ft-3 {
-    background-image: url("/company-webpage/resources/images/grace-hazell-AN99mB52dag-unsplash.jpg");
+    background-image: url("/resources/images/grace-hazell-AN99mB52dag-unsplash.jpg");
 }
 #ft-4 {
-    background-image: url("/company-webpage/resources/images/that-s-her-business-ZTuTTcsproc-unsplash.jpg");
+    background-image: url("/resources/images/that-s-her-business-ZTuTTcsproc-unsplash.jpg");
 }
 #ft-5 {
-    background-image: url("/company-webpage/resources/images/jessica-loaiza-mZ3GJ_G-IYE-unsplash.jpg");
+    background-image: url("/resources/images/jessica-loaiza-mZ3GJ_G-IYE-unsplash.jpg");
 }
 #ft-6 {
-    background-image: url("/company-webpage/resources/images/seungwon-lee-j0U0e5sdkVw-unsplash.jpg");
+    background-image: url("/resources/images/seungwon-lee-j0U0e5sdkVw-unsplash.jpg");
 }
 #ft-1,
 #ft-2,
