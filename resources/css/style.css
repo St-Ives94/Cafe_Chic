@@ -154,7 +154,7 @@ body{
     transition: font-size 1s ;
 
 }
-.featured-container h3:hover{
+.featured-container:hover > h3{
     background-color: #a65679e5;
     font-size: 25px;
 }
