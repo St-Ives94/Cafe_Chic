@@ -151,12 +151,12 @@ body{
     margin: 0;
     padding: 20px;
     letter-spacing: 2px;
-    transition: font-size 1s;
+    transition: font-size 1s ;
 
 }
 .featured-container h3:hover{
     background-color: #a65679e5;
-    font-size: 18px;
+    font-size: 25px;
 }
 .feature-text {
     /* color: #7EDBF2; */
