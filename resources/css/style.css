@@ -6,9 +6,11 @@ body{
     color: #36393A;
     Font-Family: 'Fauna One', Serif;
     Font-Size: 14px;
+    /* margin: 0 8px; */
 }
 #featured, #team, #connect, #footer, #about {
     margin: 20px auto;
+    padding: 20px;
 }
 .image-container {
     background-image: url("/resources/images/ruben-ramirez-xhKG01FN2uk-unsplash.jpg");
@@ -79,7 +81,7 @@ body{
     display: none;
 }
 #about {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     height: 500px;
     align-items: center;
@@ -152,7 +154,9 @@ body{
     padding: 20px;
     letter-spacing: 2px;
     transition: font-size 1s ;
-
+}
+#featured em {
+    color:#7edbf2;
 }
 .featured-container:hover > h3{
     background-color: #a65679e5;
@@ -218,11 +222,19 @@ body{
     flex-wrap: wrap;
     flex-grow: 1;
     flex-basis: 0;
+    flex-shrink: 1;
 }
 .team {
     display: flex;
     flex-direction: column-reverse;
-
+    margin: 10px;
+}
+.team:hover > .description {
+    background-color: rgba(51, 51, 51, 0.831);
+    font-size: 20px;
+    color: #bababa;
+    letter-spacing: 2px;
+    transition: font-size 1s ;
 }
 .description {
     text-align: center;
@@ -239,7 +251,8 @@ body{
 }
 #team-1,
 #team-2,
-#team-3 {
+#team-3,
+#team-4 {
     object-fit: scale-down;
     height: 450px;
     width: 350px;
@@ -248,17 +261,30 @@ body{
     justify-content: flex-end;
 }
 #team-1 {
-    background-image: url("/resources/images/desiree_monet_team.jpg")
+    background-image: url("/resources/images/desiree_monet_team.jpg");
 }
 #team-2 {
-    background-image: url("/resources/images/drake2_dupont_team.jpg")
+    background-image: url("/resources/images/drake2_dupont_team.jpg");
 }
 #team-3 {
-    background-image: url("/resources/images/lucii_rod_team.jpg")
+    background-image: url("/resources/images/lucii_rod_team.jpg");
+}
+#team-4 {
+    background-image: url("/resources/images/scarlett_oryan3_team.jpg");
+    /* background-size: contain; */
+}
+footer {
+    display: inline-flex;
+    text-align: center;
+    background-color: #bababa;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0px !important;
+    padding-top: 10px !important;
 }
 
-#connect, #footer {
-    display: none;
+#connect {
+    display: flex;
 }
 @media screen and (max-width: 640px){
     /* (A) BREAK INTO VERTICAL MENU */
@@ -315,6 +341,9 @@ body{
     }
     .about-text{
         margin: 0px 50px 0px 30px;
+    }
+    .features {
+        justify-content: space-evenly
     }
 }
 @media screen and (max-width: 820px) and (min-width: 640px){
