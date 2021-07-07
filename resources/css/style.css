@@ -273,6 +273,18 @@ body{
     background-image: url("/resources/images/scarlett_oryan3_team.jpg");
     /* background-size: contain; */
 }
+#connect {
+    /* display: flex; */
+    height: 500px;
+    align-items: center;
+}
+.connect-container {
+    display: flex;
+}
+.link {
+    height: 20px;
+    width: 20px;
+}
 footer {
     display: inline-flex;
     text-align: center;
@@ -282,10 +294,15 @@ footer {
     margin-bottom: 0px !important;
     padding-top: 10px !important;
 }
-
-#connect {
-    display: flex;
+#footer a {
+    text-decoration: none;
+    color: #36393a
 }
+#footer a:hover {
+    text-decoration: none;
+    color: #A65679
+}
+
 @media screen and (max-width: 640px){
     /* (A) BREAK INTO VERTICAL MENU */
     .breadcrumb a {

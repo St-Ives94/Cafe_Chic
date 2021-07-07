@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/resources/css/style.css"/>
     <title>Cafe Chic</title>
     <link rel="shortcut icon" type="image/jpg" href="/resources/images/eiffel-tower.png"/>
@@ -103,32 +103,37 @@
         </div>
         <div id="connect">
             <h2>Connect With Us!</h2>
-            <div class="contact-page">
-                <h3>Join our mailing list and recieve special coupons!</h3>
-                <form action="" method="get" class="form">
-                    <div class="form">
-                        <label for="name">Your name: </label>
-                        <input type="text" name="name" id="name" required>
+            <div class="connect-container">
+                <div class="contact-page">
+                    <h3>Join our mailing list and recieve special coupons!</h3>
+                    <form action="" method="get" class="pure-form">
+                        <div class="form">
+                            <label for="name">Your name: </label>
+                            <input type="text" name="name" id="name" class="pure-input-rounded" required>
+                        </div>
+                        <div class="form">
+                            <label for="email">Your email: </label>
+                            <input type="email" name="email" id="email" class="pure-input-rounded" required>
+                        </div>
+                        <div class="form">
+                            <label for="birthday">Birthday:</label>
+                            <input type="date" id="birthday" class="pure-input-rounded" name="birthday" value="2008-07-22" min="1950-01-01" max="2021-12-31">
+                        </div>
+                        <div class="form">
+                            <input type="submit" class="pure-input-rounded" value="Subscribe!">
+                        </div>
+                    </form>
+                    <div class="contact-images">
+                        
                     </div>
-                    <div class="form">
-                        <label for="email">Your email: </label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-                    <div class="form">
-                        <label for="birthday">Birthday:</label>
-                        <input type="date" id="birthday" name="birthday" value="2008-07-22" min="1950-01-01" max="2021-12-31">
-                    </div>
-                    <div class="form">
-                        <input type="submit" value="Subscribe!">
-                    </div>
-                </form>
-            </div>
-            <div >
-                <div class="social-links">
-                    <a href="http://facebook.com/"><img class="link" src="/resources/images/facebook.png"></a>
-                    <a href="http://instagram.com/"><img class="link" src="/resources/images/instagram-logo.png"></a>
-                    <a href="http://twitter.com/"><img class="link" src="/resources/images/twitter-logo.png"></a>
-                    </div>
+                </div>
+                <div>
+                    <div class="social-links">
+                        <a href="http://facebook.com/"><img class="link" src="/resources/images/facebook.png"></a>
+                        <a href="http://instagram.com/"><img class="link" src="/resources/images/instagram-logo.png"></a>
+                        <a href="http://twitter.com/"><img class="link" src="/resources/images/twitter-logo.png"></a>
+                        </div>
+                </div>
             </div>
         </div>
     </main>
