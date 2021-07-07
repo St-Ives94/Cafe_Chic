@@ -296,6 +296,7 @@ body{
     padding: 8px;
 
 }
+
 .social-links {
     margin: 5px;
 
@@ -306,9 +307,13 @@ body{
 }
 .form {
     color: #F297BE;
+    margin: 20px;
 }
 .form > input:active {
-    background-color: #A65679
+    /* background-color: #A65679 */
+}
+form::placeholder{
+    background-color: #5E9AA6;
 }
 /* .pure-form {
     width: 40%;
