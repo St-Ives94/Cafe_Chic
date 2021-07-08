@@ -7,3 +7,5 @@ Website consists of responsive sizing and highlighting of buttons and certain se
   * CSS3
 
 Website: https://cafe-chic.herokuapp.com/
+
+* Photos a courtesy from https://unsplash.com
