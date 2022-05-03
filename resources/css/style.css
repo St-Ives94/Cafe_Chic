@@ -46,6 +46,23 @@ body{
     width: 100%;
     background: #F9DCE1;
     position: fixed;
+
+    &.open {
+
+        .header__toggle {
+          > span:first-child {
+            transform: rotate(45deg);
+          }
+
+          > span:nth-child(2) {
+            opacity: 0;
+          }
+
+          > span:last-child {
+            transform: rotate(-45deg);
+          }
+        }
+      }
 }
   /* (B) HORIZONTAL MENU ITEMS */
 .breadcrumb {
